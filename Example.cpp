@@ -10,5 +10,5 @@ int main()
 		if (i == 99990)
 			std::cout << sl::GetTime("forLoop") << '\n';
 	}
-	sl::EndBenchmark("forLoop");
+	std::cout << "Benchmark took: " << sl::EndBenchmark("forLoop") << " seconds";
 }

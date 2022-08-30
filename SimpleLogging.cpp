@@ -30,7 +30,6 @@ double sl::EndBenchmark(const std::string& benchmarkName)
 	{	
 		double time = GetTime(benchmarkName);
 		workingBenchmarks.erase(benchmarkName);
-		std::cout << "Benchmark took: " << time << "s\n";
 		return time;
 	}
 	else
@@ -38,6 +37,6 @@ double sl::EndBenchmark(const std::string& benchmarkName)
 		std::cout << "Benchmark with that name does not exist\n";		
 	}
 
-
 }
+
 

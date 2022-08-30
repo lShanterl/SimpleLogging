@@ -15,7 +15,6 @@ namespace sl
 	
 	void BeginBenchmark(const std::string& benchmarkName);
 	double EndBenchmark(const std::string& benchmarkName);
-
 }
 
 
